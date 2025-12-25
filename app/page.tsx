@@ -117,7 +117,7 @@ export default function HomePage() {
           ].map(([time, title], i) => (
             <details
               key={i}
-              className="rounded-xl bg-white/60 border border-amber-200/30 p-3"
+              className="rounded-xl bg-white/80 dark:bg-gray-800 border border-amber-200/30 p-3"
             >
               <summary className="flex items-center justify-between font-medium text-gray-800 dark:text-gray-200">
                 <span>⏰ {time} — {title}</span>
