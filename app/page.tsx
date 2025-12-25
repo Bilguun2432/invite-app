@@ -41,18 +41,16 @@ export default function HomePage() {
           priority
           quality={80}
           fill
-          sizes="100vw"
           className="object-cover"
         />
 
-        {/* Dark gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
       </div>
 
-      {!prefersReduced && hearts.map(h=>(
+      {!prefersReduced && hearts.map(h => (
         <motion.span
           key={h.id}
-          className="absolute select-none will-change-transform"
+          className="absolute select-none will-change-transform z-10"
           style={{
             left: h.left,
             top: h.top,
@@ -75,6 +73,7 @@ export default function HomePage() {
           }}
         >🔥</motion.span>
       ))}
+
 
       <motion.section
         initial={{ opacity: 0, y: 12 }}
