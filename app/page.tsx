@@ -127,7 +127,7 @@ export default function HomePage() {
         </div>
 
         <div className="mt-8 border-t border-white/30 pt-4 text-center dark:border-white/10">
-          <p className="text-sm text-gray-700 dark:text-gray-300">
+          <p className="text-sm text-gray-700 dark:text-gray-100">
             📍 Хаана: Brigade E-Sports
           </p>
           <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
